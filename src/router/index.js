@@ -5,27 +5,42 @@ const routes = [
   {
     path: '/',
     name: 'home',
-    component: HomeView
+    component: HomeView,
+    meta: {
+      title: 'El Perro de Messi | Home'
+    }
   },
   {
     path: '/farmacia',
     name: 'pharmacy',
-    component: () => import('../views/PharmacyView.vue')
+    component: () => import('../views/PharmacyView.vue'),
+    meta: {
+      title: 'El Perro de Messi | Farmacia'
+    }
   },
   {
     path: '/juguetes',
     name: 'pharmacy',
-    component: () => import('../views/PharmacyView.vue')
+    component: () => import('../views/PharmacyView.vue'),
+    meta: {
+      title: 'El Perro de Messi | Juguetes'
+    }
   },
   {
     path: '/farmacia',
     name: 'pharmacy',
-    component: () => import('../views/ToysView.vue')
+    component: () => import('../views/ToysView.vue'),
+    meta: {
+      title: 'El Perro de Messi | Farmacia'
+    }
   },
   {
     path: '/contacto',
     name: 'contact',
-    component: () => import('../views/ContactView.vue')
+    component: () => import('../views/ContactView.vue'),
+    meta: {
+      title: 'El Perro de Messi | Contacto'
+    }
   },
 ]
 

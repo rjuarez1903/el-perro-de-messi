@@ -1,15 +1,36 @@
 <template>
 
-    <nav>
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </nav>
+    <header>
+      <Nav></Nav>
+    </header>
 
     <router-view/>
 
 </template>
 
-<style>
+<script>
+    import Nav from './components/Nav.vue';
 
+    export default {
+        data() {
+            return {
+
+            }
+        },
+        components: {
+            Nav,
+
+        }, 
+        computed: {
+            currentRouteName() {
+                return this.$route.name;
+            }, 
+        },
+}
+</script>
+
+
+<style>
+    
 
 </style>
