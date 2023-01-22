@@ -73,4 +73,22 @@
         /* transition: .3s ease all; */
     }
 
+    /*  ----------
+        SCROLL BAR
+        ---------- 
+    */
+
+    body::-webkit-scrollbar {
+        width: 0.5rem;               
+    }
+    
+    body::-webkit-scrollbar-track {
+        background: var(--colorFooter);        
+    }
+    
+    body::-webkit-scrollbar-thumb {
+        background-color: var(--colorBoton);    
+        border-radius: 20px;       
+    }
+
 </style>
