@@ -4,7 +4,9 @@
       <Nav />
     </header>
 
-    <router-view/>
+    <main class="py-4">
+        <router-view/>
+    </main>
 
     <Footer />
 
@@ -56,18 +58,19 @@
     --shadow: 10px 10px 20px rgba(0,0,0,0.5); */
 }
 
-#app {
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    color: var(--claro);
-    font-family: 'Poppins', sans-serif;
-}
+    #app { 
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        background-color: var(--colorPrimario);
+        color: var(--claro);
+        font-family: 'Poppins', sans-serif;
+    }
 
-header{
-    font-family: 'Holtwood One SC', serif;
-    background-color: var(--colorPrimario);
-    transition: .3s ease all;
-}
+    header {
+        font-family: 'Holtwood One SC', serif;
+        background-color: var(--colorPrimario);
+        /* transition: .3s ease all; */
+    }
 
 </style>
