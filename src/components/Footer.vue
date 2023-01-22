@@ -3,7 +3,7 @@
         <div class="container ">
             <div class="row">
                 <nav class="redes col-12 col-md-4">
-                    <ul class="navbar-nav flex-row">
+                    <ul class="navbar-nav flex-row gap-2">
                         <li class="nav-item">
                             <SocialIcon 
                                 urlTarget="https://facebook.com/"
@@ -50,3 +50,24 @@
     }
 
 </script>
+
+<style scoped>
+    footer{
+        margin-top: auto;
+        background-color: var(--colorFooter);
+        color: var(--oscuro);
+    }
+
+    footer a {
+        color: var(--oscuro);
+    }
+
+    .redes {
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        gap: 1rem;
+        color: #fff;
+    }
+
+</style>
