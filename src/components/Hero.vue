@@ -67,4 +67,33 @@
         color: var(--claro);
         /* transition: .3s ease all; */
     }
+
+
+    /*  *************
+        MEDIA QUERIES
+        *************
+    */
+
+    @media (min-width: 768px) {
+        .img-beagle {
+            position: relative;
+            align-items: center;
+            display: flex;
+            height: 540px;
+        }
+
+        .img-beagle img {
+            position: absolute;
+            left: 0;
+            height: 70%;
+        }
+    }
+
+    @media (min-width: 1200px){
+
+        .img-beagle img {
+            height: 100%;
+        }
+
+    }
 </style>
