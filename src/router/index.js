@@ -20,7 +20,7 @@ const routes = [
   },
   {
     path: '/juguetes',
-    name: 'pharmacy',
+    name: 'toys',
     component: () => import('../views/PharmacyView.vue'),
     meta: {
       title: 'El Perro de Messi | Juguetes'
@@ -46,7 +46,13 @@ const routes = [
 
 const router = createRouter({
   history: createWebHistory(process.env.BASE_URL),
+  linkActiveClass: 'active',
   routes
+})
+
+router.beforeEach((to, from, next) => {
+  document.title = `${to.meta.title}`
+  next()
 })
 
 export default router
