@@ -2,14 +2,20 @@
     <section class="hero">
         <Hero />
     </section>
+    <section class="tips">
+        <Tips />
+    </section>
+
 </template>
 
 <script>
     import Hero from '@/components/Hero.vue';
+    import Tips from '@/components/Tips.vue'
 
     export default {
         components: {
-            Hero
+            Hero, 
+            Tips
         }
     }
 </script>
@@ -28,5 +34,17 @@
         transition: .3s ease all;
     } */
 
+    .tips {
+        background-color: var(--colorFooter);
+        color: var(--oscuro);
+        transform: skewY(12deg);
+        /* transition: .3s ease all; */
+    }
+
+    @media (min-width: 768px) {
+        .tips {
+            transform: skewY(7deg);
+        }
+    }
 
 </style>
