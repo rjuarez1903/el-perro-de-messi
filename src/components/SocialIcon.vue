@@ -1,6 +1,6 @@
 <template>
     <a :href="urlTarget" target="_blank" class="nav-link">
-        <i :class="faIcon" class="social-icon text-dark"></i>
+        <i :class="faIcon" class="social-icon"></i>
     </a>
 </template>
 
@@ -19,6 +19,6 @@
     }
 
     .social-icon:hover {
-        color: var(--colorBoton) !important;
+        color: var(--colorBoton);
     }
 </style>

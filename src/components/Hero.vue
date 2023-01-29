@@ -2,7 +2,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-6 col-lg-7 d-flex flex-column mb-5">
-                <h1><img class="img-titulo w-100" src="../assets/elperrodemessi.png" alt="elperrodemessi-titulo"></h1>
+                <h1><img class="img-titulo w-100" src="../assets/elperrodemessi.png" alt="El Perro de Messi Título"></h1>
                 <h2 class="descripcion mt-5">Hace más de 30 años nos dedicamos al cuidado de las mascotas. Las mascotas son nuestra pasión. Trabajamos todos los días para mejorar su calidad de vida, como así también la relación con sus tutores mediante el traspaso de información útil y la recomendación de productos adecuados.</h2>
                 <nav>
                     <ul class="navbar-nav">

@@ -5,17 +5,22 @@
     <section class="tips">
         <Tips />
     </section>
+    <section>
+        <Clients />
+    </section>
 
 </template>
 
 <script>
     import Hero from '@/components/Hero.vue';
     import Tips from '@/components/Tips.vue'
+    import Clients from '@/components/Clients.vue'
 
     export default {
         components: {
             Hero, 
-            Tips
+            Tips, 
+            Clients
         }
     }
 </script>
